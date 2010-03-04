@@ -98,6 +98,7 @@
 	}
 	openingFile = [filename copy];
 	
+	[passwordWindow makeFirstResponder:passwordField];
 	[passwordWindow dialogPositionWindowOnScreen:[NSScreen mainScreen]];
 	[passwordWindow makeKeyAndOrderFront:nil];
 }
@@ -117,12 +118,18 @@
 				[[NSApplication sharedApplication] terminate:nil];
 		}
 	}
+	
+	// For a little extra security
+	[passwordField setStringValue:@""];
 }
 - (IBAction)cancelMount:(id)sender
 {
 	[passwordWindow orderOut:nil];
 	if (fileTriggeredLaunch)
 		[[NSApplication sharedApplication] terminate:nil];
+	
+	// For a little extra security
+	[passwordField setStringValue:@""];
 }
 - (IBAction)newSafe:(id)sender
 {
@@ -189,10 +196,18 @@
 				[[NSWorkspace sharedWorkspace] openFile:result];
 		}
 	}
+	
+	// For a little extra security
+	[newSafePasswordField setStringValue:@""];
+	[newSafePasswordConfirmField setStringValue:@""];
 }
 - (IBAction)cancelCreate:(id)sender
 {
 	[newSafeWindow orderOut:nil];
+	
+	// For a little extra security
+	[newSafePasswordField setStringValue:@""];
+	[newSafePasswordConfirmField setStringValue:@""];
 }
 
 @end

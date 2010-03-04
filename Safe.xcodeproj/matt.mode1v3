@@ -324,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C9904E50113F5BD600FE6373</string>
+										<string>C922E69911400C37005B8C4B</string>
 										<key>history</key>
 										<array>
 											<string>C97CD5B3113F3DA300D8A6EC</string>
@@ -333,8 +333,8 @@
 											<string>C97CD698113F583200D8A6EC</string>
 											<string>C9904E21113F5AB400FE6373</string>
 											<string>C9904E23113F5AB400FE6373</string>
-											<string>C9904E4D113F5BA700FE6373</string>
-											<string>C9904E4E113F5BA700FE6373</string>
+											<string>C922E69711400C37005B8C4B</string>
+											<string>C922E69811400C37005B8C4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,14 +346,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {886, 315}}</string>
+								<string>{{0, 0}, {886, 304}}</string>
 								<key>RubberWindowFrame</key>
 								<string>164 161 1094 685 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>315pt</string>
+							<string>304pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -366,14 +366,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 320}, {886, 324}}</string>
+								<string>{{0, 309}, {886, 335}}</string>
 								<key>RubberWindowFrame</key>
 								<string>164 161 1094 685 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>324pt</string>
+							<string>335pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -392,9 +392,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C9904E19113F59E000FE6373</string>
+				<string>C922E69A11400C37005B8C4B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>C9904E1A113F59E000FE6373</string>
+				<string>C922E69B11400C37005B8C4B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,10 +532,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C9904E35113F5B2000FE6373</string>
-		<string>C9904E36113F5B2000FE6373</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>C97CD5A8113F3D9800D8A6EC</string>
 		<string>/Users/matt/Safe/Safe.xcodeproj</string>
 	</array>
@@ -617,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>C97CD5A8113F3D9800D8A6EC</string>
-				<string>C9904E1B113F59E000FE6373</string>
+				<string>C922E69C11400C37005B8C4B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
