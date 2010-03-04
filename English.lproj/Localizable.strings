@@ -1,0 +1,9 @@
+/* 
+   Localizable.strings
+   Safe
+
+   Created by Matt Patenaude on 3/3/10.
+   Copyright 2010 __MyCompanyName__. All rights reserved.
+ */
+
+"Enter password for \"%@\"" = "Enter password for \"%@\"";
